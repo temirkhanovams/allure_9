@@ -1,2 +1,4 @@
 # Allure
 allure-results
+tests/.pytest_cache/
+venv/
