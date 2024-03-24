@@ -6,22 +6,20 @@ on:
       - "master"
 
 jobs:
-  autotests:
+  tests:
     name: Test
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-
       - name: Set up Python 3.x
         uses: actions/setup-python@v2
         with:
           python-version: '3.x'
-
       - name: Install dependencies
-        run:
+        run: |
           pip install -r requirements.txt
       - name: Install dependencies
-        run:
+        run: |
           pytest --alluredir=allure-results
 
 
