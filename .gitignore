@@ -1,4 +1,7 @@
 # Allure
-tests/allure-results
+tests/allure-results/
 tests/.pytest_cache/
 venv/
+.idea/
+tests/__init__.py
+tests/__pycache__/
