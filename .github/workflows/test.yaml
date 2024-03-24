@@ -2,6 +2,7 @@ name: TEST
 
 on:
   push:
+    - "master"
 
 jobs:
   autotests:
