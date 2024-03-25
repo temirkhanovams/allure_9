@@ -5,3 +5,4 @@ venv/
 .idea/
 tests/__init__.py
 tests/__pycache__/
+pytest.ini
